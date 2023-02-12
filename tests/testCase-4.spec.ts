@@ -27,6 +27,6 @@ test('Test Case 1', async ({ page }) => {
     await laptopsPage.clickPriceOkButton();
     //Verify that all the items on the page are sorted 
     //correctly by the from and to price filters you entered.
-    await expect(laptopsPage.getFirstProduct()).toContainText('ASUS');
+    await expect(laptopsPage.getFirstProduct()).toContainText('MSI');
     await expect(laptopsPage.getCostFirstProduct()).toContainText('27 999₴');
 });

@@ -1,1 +1,1 @@
-export const baseUrl = 'https://rozetka.com.ua/';
+export const baseUrl = 'https://rozetka.com.ua/ua/';
